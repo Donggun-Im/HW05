@@ -71,8 +71,8 @@ void AMyActor::move()
 
 int32 AMyActor::createEvent()
 {
-	int event = FMath::RandRange(0, 10);
-	if ( event < 3)
+	int event = FMath::RandRange(0, 10);  //제출 후 수정
+	if ( event < 5)
 	{
 		return event+1;
 	}
